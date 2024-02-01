@@ -13,7 +13,7 @@ def create_tag():
     path_from_tag = f'{tag}'
     tag.save(path_from_tag)
 
-    return jsonify({ "tag_path": path_from_tag })
+    return jsonify({ "tag path": path_from_tag })
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3000)
